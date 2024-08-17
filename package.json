@@ -1,0 +1,23 @@
+{
+  "name": "automacao-codeceptjs-web",
+  "version": "1.0.0",
+  "description": "Projeto de automacao de testes para web com webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernanda Aime",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "@wdio/selenium-standalone-service": "^8.15.0",
+    "codeceptjs": "^3.6.5",
+    "puppeteer": "^23.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "webdriverio": "^9.0.1"
+  },
+  "dependencies": {
+    "playwright": "^1.46.1"
+  }
+}
